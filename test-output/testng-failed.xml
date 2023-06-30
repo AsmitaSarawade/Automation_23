@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Default test(failed)">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="POM_TestNG_FDD.TestNG_Pom">
+      <class name="imp_Practice.orangehrmlive_Dataprovider_excel_testclass">
         <methods>
-          <include name="CloseBrowser"/>
-          <include name="Logintoapp"/>
-          <include name="Logoutapp"/>
-          <include name="OpenBrowser"/>
-          <include name="verifyfullName"/>
+          <include name="TestLogin" invocation-numbers="0 1 2 3 4 5"/>
         </methods>
-      </class> <!-- POM_TestNG_FDD.TestNG_Pom -->
+      </class> <!-- imp_Practice.orangehrmlive_Dataprovider_excel_testclass -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

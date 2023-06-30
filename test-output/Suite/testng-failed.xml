@@ -3,15 +3,11 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="POM_TestNG_FDD.TestNG_Pom">
+      <class name="imp_Practice.orangehrmlive_Dataprovider_excel_testclass">
         <methods>
-          <include name="CloseBrowser"/>
-          <include name="Logintoapp"/>
-          <include name="Logoutapp"/>
-          <include name="OpenBrowser"/>
-          <include name="verifyfullName"/>
+          <include name="TestLogin" invocation-numbers="0 1 2 3 4 5"/>
         </methods>
-      </class> <!-- POM_TestNG_FDD.TestNG_Pom -->
+      </class> <!-- imp_Practice.orangehrmlive_Dataprovider_excel_testclass -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
